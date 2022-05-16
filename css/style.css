@@ -1,3 +1,4 @@
+/* home page */
 .bg-photo{
     background-image: url("../images/bgphoto.png");
     height: 662px;
@@ -40,7 +41,7 @@
     color: white;
     margin-top: 230px;
     position: absolute;
-    text-align: center;
+    /* text-align: center; */
 }
 .paragraph1{
     position: absolute;
@@ -77,7 +78,7 @@
     border: none;
 }
 .icon{
-    width: 51px;
+    width: 70px;
     height: 51px;
     background-color: #5863F8;
     color: white;
@@ -87,3 +88,9 @@
     margin-top: 50px;
     margin-right: 20px;
 }
+.burger{
+    display: none;
+    font-size: 25px;
+}
+/* home page */
+/*  */
