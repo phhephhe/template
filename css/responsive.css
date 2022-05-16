@@ -1,5 +1,5 @@
 /* home page */
-@media(max-width:1000px){
+@media(max-width:980px){
     .form-container{
         display: flex;
         flex-direction: column;
@@ -8,6 +8,7 @@
         align-items: center;
         width: 100%;
     }
+    
     .input{
          width: 100%;
     }
@@ -30,4 +31,32 @@
 
 
 /* home page */
-/*  */
+/* ABOUTUS */
+
+@media(max-width:980px){
+    .about-us-wraper{
+        margin-top: 480px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+    }
+    .left-box{
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:540px){
+    .right-box img:nth-child(3){
+        display: none;
+    }
+    .right-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+
+
+/* ABOUTUS */

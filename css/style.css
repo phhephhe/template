@@ -93,4 +93,57 @@
     font-size: 25px;
 }
 /* home page */
-/*  */
+
+/* ABOUT US */
+
+.about-us-wraper{
+    max-width: 1088px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.left-box{
+    max-width: 444px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 5px 10px 5px gray;
+}
+.left-box h6 {
+    color: #5863F8;
+}
+.left-box h3 {
+    font-weight: bold;
+    font-size: 30px;
+}
+.margin{
+    margin-bottom: 15px;
+}
+.btn-readmore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5863F8;
+    padding: 15px 25px;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+.arrow{
+    margin-left: 5px;
+    color: white;
+}
+
+.right-box{
+    max-width: 536px;
+    width: 100%;
+}
+.right-box img:not(:nth-child(3)){
+    border: 3px solid black;
+}
+
+/* ABOUT US */
