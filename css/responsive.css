@@ -22,7 +22,7 @@
         margin-right: 25px;
     }   
 }
-@media(max-width:480px){
+@media(max-width:580px){
     .title1 {
         font-size: 45px;
     }
@@ -53,9 +53,19 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-    
+    }   
 }
+@media(max-width:1080px){
+    .box:last-child{
+        display: none;
+    }
+    .wraper-block{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 
 
 

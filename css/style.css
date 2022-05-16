@@ -1,6 +1,6 @@
 /* home page */
 .bg-photo{
-    background-image: url("../images/bgphoto.png");
+    background:linear-gradient(rgba(0,0,0,0.1),#080808bb), url("../images/bgphoto.png");
     height: 662px;
     width: 100%;
     background-repeat: no-repeat;
@@ -64,7 +64,6 @@
 }
 .inputs{
     padding: 25px;
-   
 }
 .label{
     color: #5863F8;
@@ -144,6 +143,66 @@
 }
 .right-box img:not(:nth-child(3)){
     border: 3px solid black;
+}
+/* bg phoho2 */
+
+.bg-photo2{
+    background:linear-gradient(rgba(0,0,0,0.1),#080808bb), url("../images/bg-photo2.png");
+    height: 612px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wraper-block{
+    max-width: 1088px;
+    width: 100%;
+    margin: 0 auto;
+}
+.paragraph2 {
+    color: #5863F8;
+    position: absolute;
+    top: 90px;
+}
+.title2{
+    position: absolute;
+    top: 125px;
+    font-size: 42px;
+    color: white;
+    max-width: 370px;
+    width: 100%;
+    line-height: 60px;
+}
+.boxes{
+    position: absolute;
+    top: 280px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    width: 260px;
+    height: 260px;
+    margin-right: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.boxphoto{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #5863F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-paragraph, .box-title{
+    text-align: center;
+}
+.box-paragraph{
+    color: gray;
 }
 
 /* ABOUT US */
