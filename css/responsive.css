@@ -106,3 +106,28 @@
     }
 }
 /* testimonials */
+/* RESTAURANT */
+@media(max-width:1072px){
+        .menu-box, .rest-paragraph{
+            display: flex;
+            justify-content: center;
+        }
+        .rest-title{
+            display: none;
+        }
+}
+@Media(max-width:500px){
+    .food-paragraph{
+        display: none;
+    }
+    .food-title, .food-title2{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(max-width:450px){
+  .food-title2{
+       margin-left: 15px;
+    }
+}
+/* RESTAURANT */

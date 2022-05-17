@@ -252,9 +252,67 @@
     width: 100%;
 }
 
-
-
-
-
-
 /* testimonials */
+/* RESTAURANT */
+.restaurant-wraper{
+    max-width: 1088px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+.rest-paragraph{
+    color: #5863F8;
+    margin-bottom: 20px;
+}
+.rest-title{
+    font-size: 42px;
+    max-width: 500px;
+    width: 100%;
+    line-height: 55px;
+}
+.menu-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.menu{
+    max-width: 536px;
+    width: 100%;
+    height: 190px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eeeeee;
+    margin-bottom: 16px;
+}
+
+.food-title{
+    color: #5863F8;
+}
+.food-title2{
+    font-size: 20px;
+    margin: 15px 0;
+}
+.food-paragraph{
+    max-width: 240px;
+    width: 100%;
+    font-size: 14px;
+    color: rgb(141, 141, 141);
+}
+.food-arrow{
+    width: 60px;
+    height: 60px;
+    background: #5863F8;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: end;
+}
+.menuicon
+
+
+
+
+/* RESTAURANT */
