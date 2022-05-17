@@ -41,7 +41,6 @@
     color: white;
     margin-top: 230px;
     position: absolute;
-    /* text-align: center; */
 }
 .paragraph1{
     position: absolute;
@@ -206,6 +205,7 @@
 
 /* ABOUT US */
 /* testimonials */
+
 .testimonials{
     min-height: 487px;
     height: auto;
@@ -254,6 +254,7 @@
 
 /* testimonials */
 /* RESTAURANT */
+
 .restaurant-wraper{
     max-width: 1088px;
     width: 100%;
@@ -313,6 +314,7 @@
 
 /* RESTAURANT */
 /* BLOG */
+
 .blog-wraper{
     max-width: 1088px;
     width: 100%;
@@ -359,3 +361,27 @@
 }
 
 /* BLOG */
+/* photos */
+
+.photos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.photo-wraper{
+    margin-left: 170px;
+    margin-top: 70px;
+
+}
+.phototitle{    
+    color: #5863F8 ;  
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.photodescription{
+    font-size: 42px;
+    line-height: 60px;
+}
+
+/* photos */

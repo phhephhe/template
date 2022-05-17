@@ -150,5 +150,41 @@
     }
 }
 
-
 /* BLOG */
+/* photos */
+
+@media(max-width:1408px){
+    .photonone1{
+        display:none
+    }
+    .photos{
+        justify-content: space-around;
+    }
+}
+@media(max-width:1056px){
+    .photonone2{
+        display:none
+    }
+    .photo-wraper{
+        margin-left: 70px;
+    }
+}
+@media(max-width:703px){
+    .photodescription{
+        display: none;    
+    }
+    .phototitle{
+        font-size: 20px;
+    }
+    .photo-wraper{
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+    }
+    .photonone3{
+        margin-top: 20px;
+    }
+}
+
+
+/* photos */
