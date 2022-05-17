@@ -310,9 +310,52 @@
     align-items: center;
     align-self: end;
 }
-.menuicon
-
-
-
 
 /* RESTAURANT */
+/* BLOG */
+.blog-wraper{
+    max-width: 1088px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 85px;
+}
+.blog-block{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.blog{
+    max-width: 352px;
+    width: 100%;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eeeeee ;
+    margin-bottom: 20px;
+}
+.blog-title{
+    color: #5863F8 ;
+    font-size: 14px;
+}
+.blog-title2{
+    font-size: 42px;
+    max-width: 470px;
+    width: 100%;
+    line-height: 60px;
+    margin-bottom: 40px;
+    margin-top: 15px;
+}
+.blog-paragraph1{
+    color: #5863F8;
+}
+.blog-paragraph3{
+    color: gray;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/* BLOG */
