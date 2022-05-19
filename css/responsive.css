@@ -27,10 +27,9 @@
     }
 }
 
-
-
 /* home page */
 /* ABOUTUS */
+
 @media(max-width:1080px){
     .box:last-child{
         display: none;
@@ -88,6 +87,7 @@
         align-items: center;
     }   
 }
+
 /* ABOUTUS */
 /* testimonials */
 
@@ -105,8 +105,10 @@
         margin-left: 4px;
     }
 }
+
 /* testimonials */
 /* RESTAURANT */
+
 @media(max-width:1072px){
         .menu-box, .rest-paragraph{
             display: flex;
@@ -130,8 +132,10 @@
        margin-left: 15px;
     }
 }
+
 /* RESTAURANT */
 /* BLOG */
+
 @media(max-width:1056px){
     .blog-block{
         display: flex;
@@ -148,6 +152,13 @@
         font-size: 20px;
         margin-bottom: 70px;
     }
+    .blog{
+        max-width: 320px;
+        width: 100%;
+    }
+    .blog img{
+        width: 100%;
+    }
 }
 
 /* BLOG */
@@ -159,6 +170,7 @@
     }
     .photos{
         justify-content: space-around;
+        
     }
 }
 @media(max-width:1056px){
@@ -167,6 +179,7 @@
     }
     .photo-wraper{
         margin-left: 70px;
+        margin-bottom: -50px;
     }
 }
 @media(max-width:703px){
@@ -183,8 +196,28 @@
     }
     .photonone3{
         margin-top: 20px;
+        width: 320px;
+    }
+    
+}
+
+/* photos */
+/* footer */
+
+@media(max-width:829px){
+    .footer-wraper{
+        justify-content: flex-start;
+    }
+    .columns-footer{
+        margin: 50px 50px;
+        flex-wrap: wrap;
+    }
+    .last-none{
+        display: none;
+    }
+    .footer-icons{
+        margin-left: 50px;
     }
 }
 
-
-/* photos */
+/* footer */
