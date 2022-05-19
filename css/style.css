@@ -74,6 +74,7 @@
     height: 50px;
     margin-top: 10px;
     border: none;
+    padding: 20px;
 }
 .icon{
     width: 70px;
@@ -452,3 +453,65 @@
     font-family: monospace;
 }
 /* footer */
+
+
+
+/* ROOMS */
+
+
+/* form */
+.form-bg{
+    width: 100%;
+    min-height: 190px;
+    background-color: rgb(233, 230, 230);
+}
+.form-wraper{
+    max-width: 1090px;
+    width: 100%;
+    min-height: 190px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+.check-in-date{
+    display: inline-block;
+    padding: 50px 0;
+    margin-left: 9px;
+}
+.check-in-date label{
+    font-size: 13px;
+    color: #5863F8 ;
+    display: block;
+}
+.check-in-date input{
+    outline: none;
+    width: 260px;
+    height: 50px;
+    margin-top: 10px;
+    border: none;
+    padding: 20px;
+}
+.submit-btn{
+    width: 260px;
+    height: 50px;
+    background-color: #5863F8;
+    color: white;
+    border: none;
+    font-size: 13px;
+}
+.plane-icon{
+    margin-left: 10px;
+}
+/* form */
+
+.bg-photo-1{
+    background:linear-gradient(rgba(0,0,0,0.1),#080808bb), url("../images/bgphoto.png");
+    height: 325px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;   
+}
+
+
+
+/* ROOMS */
