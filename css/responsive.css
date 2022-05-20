@@ -110,13 +110,13 @@
 /* RESTAURANT */
 
 @media(max-width:1072px){
-        .menu-box, .rest-paragraph{
-            display: flex;
-            justify-content: center;
-        }
-        .rest-title{
-            display: none;
-        }
+    .menu-box, .rest-paragraph{
+        display: flex;
+        justify-content: center;
+    }
+    .rest-title{
+        display: none;
+     }
 }
 @Media(max-width:500px){
     .food-paragraph{
@@ -228,15 +228,54 @@
 /* ROOMS */
 
 
+/* rooms  */
 
+@media(max-width:1071px){
+    .room-none{
+        display: none;
+    }
+    .about-wraper, .rooms, .room-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+}
+@media(max-width:480px){
+    .small-text{
+        display: none;
+    }
+    .room-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .room-btn{
+        height: 60px;
+        width: 100px;
+        align-self: flex-end;
+    }
+}
+
+/* rooms  */
 /* form */
+
 @media(max-width:1085px){
     .check-in-date{
         padding: 20px 0;
     }
 }
+@media(max-width:541px){
+    .form-wraper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+  
+}
 
 /* form */
-
 
 /* ROOMS */

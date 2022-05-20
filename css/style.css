@@ -10,7 +10,6 @@
 .container{
     max-width: 1088px;
     width: 100%;
-    height: 715px;
     margin: 0 auto;
     position: relative;
 }
@@ -24,6 +23,10 @@
     position: absolute;
     color: white;
 }
+.logo a{
+    color: white;
+    cursor: pointer;
+}
 .nav-ul{
     display: flex;
 }
@@ -32,6 +35,10 @@
 }
 .nav-li a {
     color: white;
+    transition-duration: 0.3s;
+}
+.nav-li a:hover{
+    color: #5863F8;
 }
 .title1{
     max-width: 577px;
@@ -86,6 +93,7 @@
     align-items: center;
     margin-top: 50px;
     margin-right: 20px;
+    cursor: pointer;
 }
 .burger{
     display: none;
@@ -171,7 +179,7 @@
     color: white;
     max-width: 370px;
     width: 100%;
-    line-height: 60px;
+    line-height: 50px;
 }
 .boxes{
     position: absolute;
@@ -196,6 +204,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.box-title{
+    font-size: 18px;
+    width: 150px;
+    font-weight: bold;
+    line-height: 25px;
+}
+.box-paragraph{
+    width: 200px;
 }
 .box-paragraph, .box-title{
     text-align: center;
@@ -247,6 +264,7 @@
     max-width: 352px;
     width: 100%;
     height: 62px;
+    line-height: 20px;
 }
 .testimonial-right img{
     max-width: 587px;
@@ -270,7 +288,7 @@
     font-size: 42px;
     max-width: 500px;
     width: 100%;
-    line-height: 55px;
+    line-height: 50px;
 }
 .menu-box{
     display: flex;
@@ -311,6 +329,7 @@
     justify-content: center;
     align-items: center;
     align-self: end;
+    cursor: pointer;
 }
 
 /* RESTAURANT */
@@ -346,7 +365,7 @@
     font-size: 42px;
     max-width: 470px;
     width: 100%;
-    line-height: 60px;
+    line-height: 50px;
     margin-bottom: 40px;
     margin-top: 15px;
 }
@@ -358,7 +377,7 @@
     margin-bottom: 25px;
     text-align: center;
     font-size: 14px;
-    line-height: 20px;
+    line-height: 15px;
 }
 
 /* BLOG */
@@ -382,7 +401,7 @@
 }
 .photodescription{
     font-size: 42px;
-    line-height: 60px;
+    line-height: 50px;
 }
 
 /* photos */
@@ -415,6 +434,9 @@
     margin-top: 30px;
     line-height: 20px;
     margin-bottom: 10px;
+}
+.cursor{
+    cursor: pointer;
 }
 .twitter{
     margin: 0 10px;
@@ -459,18 +481,117 @@
 /* ROOMS */
 
 
+/* Rooms-homepage */
+
+.bg-photo-1{
+    background:linear-gradient(rgba(0,0,0,0.1),#080808bb), url("../images/bgphoto.png");
+    height: 325px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;   
+}
+.room-container{
+    position: absolute;
+    top: 160px;
+    width: 160px;
+    height: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+    .room-title{
+        color: white;
+        font-size: 42px;  
+    }
+    .home-a{
+        color: white;
+    }
+    .home-room{
+        display: flex;
+        justify-content: space-between;
+    }
+    .border-line{
+    border: 1px solid white;
+    }
+
+/* Rooms-homepage */
+/* ABOUT US */      
+
+.about-wraper{
+    max-width: 1088px;
+    width: 100%;
+    margin: 90px auto 50px;
+}
+.about-title{
+    font-size: 14px;
+    color: #5863F8;
+}
+.about-text{
+    font-size: 42px;
+    line-height: 50px;
+    max-width: 374px;
+    width: 100%;
+    margin-top: 20px;
+}
+.rooms{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+    flex-wrap: wrap;
+}
+.room{
+    max-width: 536px;
+    width: 100%;
+    height: 190px;
+    background-color: rgb(238, 236, 236);
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.room-text{
+    max-width: 255px;
+    width: 100%;
+    height: 120px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.p-type{
+    color: #5863F8;
+}
+.midle-text{
+    font-size: 18px;
+}
+.small-text{
+    color: rgb(173, 173, 173);
+    font-size: 14px;
+}
+.room-btn{
+    height: 100%;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5863F8;
+    cursor: pointer;
+}
+
+/* ABOUT US */
 /* form */
+
 .form-bg{
     width: 100%;
     min-height: 190px;
-    background-color: rgb(233, 230, 230);
+    background-color:  rgb(238, 236, 236);
 }
 .form-wraper{
     max-width: 1090px;
     width: 100%;
     min-height: 190px;
     margin: 0 auto;
-    /* border: 1px solid black; */
 }
 .check-in-date{
     display: inline-block;
@@ -501,16 +622,16 @@
 .plane-icon{
     margin-left: 10px;
 }
+
 /* form */
 
-.bg-photo-1{
-    background:linear-gradient(rgba(0,0,0,0.1),#080808bb), url("../images/bgphoto.png");
-    height: 325px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;   
-}
+
+
+
+
+
+
+
 
 
 
