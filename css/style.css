@@ -626,14 +626,108 @@
 
 /* form */
 
-
-
-
-
-
-
-
-
-
-
 /* ROOMS */
+/* CONTACT */
+
+.map-container{
+    max-width: 1090px;
+    width: 100%;
+    height: 300px;
+    margin: 50px auto;
+}
+.map{
+    width: 100%;
+    height: 100%;
+}
+
+.contact-container{
+    max-width: 1090px;
+    width: 100%;
+    margin: 50px auto;   
+}
+.contact-h1{
+    font-size: 14px;
+    color: #5863F8;
+}
+.contact-p{
+    font-size: 42px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.textarea-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.text-area{
+    resize: none;
+    max-width: 725px;
+    width: 100%;
+    height: 300px;
+    outline: none;
+    background-color: rgb(248, 245, 245);
+}
+.text-area::placeholder{
+    padding: 10px;
+}
+.send-info{
+    max-width: 350px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.info-input input, .info-input button{
+    width: 100%;
+    height: 60px;
+    outline: none;
+}
+.info-input button{
+    background-color: #5863F8;
+    color: white;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+.info-input input::placeholder{
+    padding: 20px;
+    color: rgb(196, 194, 194);
+}
+/* contact-icons */
+.contact-icon-container{
+    max-width: 970px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.icons-card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 160px;
+}
+.contact-icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #5863F8;
+    text-align: center;
+    line-height: 65px;
+    color: white;
+}
+.email-text{
+    font-size: 18px;
+    font-weight: bold;
+}
+.yahoo-text{
+    font-size: 14px;
+    color: grey;
+}
+/* contact-icons */
+/* CONTACT */

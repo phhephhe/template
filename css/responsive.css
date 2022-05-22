@@ -41,7 +41,7 @@
     }
 }
 
-@media(max-width:980px){
+@media(max-width:979px){
     .about-us-wraper{
         margin-top: 480px;
         position: absolute;
@@ -279,3 +279,48 @@
 /* form */
 
 /* ROOMS */
+/* RESTAURANT */
+
+/* about us */
+
+@media(max-width:979px){
+    #about2{
+        margin-top: 50px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+    }
+   #bgphoto2{
+      margin-top: -450px;
+   }
+}
+
+/* about us */
+
+/* RESTAURANT */
+
+/* restaurant */
+@media(max-width:979px){
+    .restaurant-wraper{
+        margin-top: 900px;
+    }
+}
+/* restaurant */
+
+/* sendifnos */
+@media(max-width:1074px){
+    .contact-h1, .contact-p, .textarea-container{
+        display: flex;
+        justify-content: center;
+    }
+    .send-info{
+        margin-top: 30px;
+    }
+}
+/* contact infos */
+/* location */
+@media(max-width:425px){
+    .location-none{
+        display: none;
+    }
+}
